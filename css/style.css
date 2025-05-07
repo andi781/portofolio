@@ -95,3 +95,13 @@ body {
     border: 2px solid white;
     border-radius: 10px;
 }
+.contact-container {
+      font-family: Arial, sans-serif;
+    }
+    .contact-info p {
+      margin: 8px 0;
+    }
+    .contact-info i {
+      margin-right: 8px;
+      color: #444;
+    }
