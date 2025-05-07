@@ -78,25 +78,29 @@ body {
     padding: 20px;
     border-radius: 10px;
     margin: 10px 0;
-  }
-  .contact-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 50px 100px;
-}
+ }
 
-.contact-info {
-    max-width: 60%;
-
-}
-.contact-container1 {
-      font-family: Arial, sans-serif;
+    .contact-container {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 600px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-    .contact-info1 p {
-      margin: 8px 0;
+    .contact-info p {
+      margin: 10px 0;
+      font-size: 16px;
     }
-    .contact-info1 i {
-      margin-right: 8px;
+    .contact-info i {
+      margin-right: 10px;
       color: #444;
+      width: 20px;
+    }
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
     }
